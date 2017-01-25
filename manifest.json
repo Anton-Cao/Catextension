@@ -1,0 +1,22 @@
+{
+  "manifest_version": 2,
+
+  "name": "Cats!",
+  "description": "This extension shows cats!",
+  "version": "1.0",
+  "author": "An?on",
+
+  "browser_action": {
+    "default_icon": {
+      "16": "source/icon16.png",
+      "48": "source/icon48.png",
+      "128": "source/icon128.png"
+    },
+    "default_popup": "popup.html",
+    "default_title": "Click here!"
+  },
+  "permissions": [
+    "activeTab",
+    "https://ajax.googleapis.com/"
+  ]
+}
